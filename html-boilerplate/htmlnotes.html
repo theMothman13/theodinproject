@@ -4,30 +4,33 @@
     <head>
         <meta charset="utf-8">
         <title>Projects | Practice</title>
+        <link rel="stylesheet" href="./css/cssnotes.css">
     </head>
 
     <body>
-        <h1>HTML Practice</h1>
+        <!-- Some attributes can be applied to any element, such as class and id. -->
+        <!-- These attributes provide further structure to your HTML document, allowing specificity in css and other use cases. -->
+        <h1 class="header">HTML Practice</h1>
             <!-- As a reminder, <strong> is used on important text and makes it bold. -->
             <!-- <em> is used to emphasize text, and italicizes it. -->
             <!-- Comments are created using the tags in lines 16, 17, and 18 in this document. -->
-            <p>There are a few different ways to modify text using base HTML. Things such as strong will make text important and print it in bold like such: <strong>This text is important!</strong></p>
-            <p>We can also use em (short for emphasis), to emphasize text and make it italic. For example: this is <em>more</em> important than that.</p>
-            <p>To keep track of what your code is doing without displaying it to the user, you'll want to use comments. Comments are created by inserting "<!--your comment goes here-->" into your code. Check the source code for this page for an example.</p>
+            <p class="practice" id="p1">There are a few different ways to modify text using base HTML. Things such as strong will make text important and print it in bold like such: <strong>This text is important!</strong></p>
+            <p class="practice" id="p2">We can also use em (short for emphasis), to emphasize text and make it italic. For example: this is <em>more</em> important than that.</p>
+            <p class="practice" id="p3">To keep track of what your code is doing without displaying it to the user, you'll want to use comments. Comments are created by inserting "<!--your comment goes here-->" into your code. Check the source code for this page for an example.</p>
 
-        <h2>Lists</h2>
+        <h2 class="header">Lists</h2>
             <!-- Lists are put together using the <ul> (unordered) and <ol> (ordered) tags. -->
             <!-- List items are then defined in with nested <li> tags. -->
-            <p><strong>Favorite Foods</strong></p>
+            <p class="lists"><strong>Favorite Foods</strong></p>
             <ul>
                 <li>Shephard's Pie</li>
                 <li>Black Bean Burgers</li>
-                <li>Pussy</li>
+                <li><em>Pussy</em></li>
                 <li>Tacos</li>
                 <li>Nachos</li>
             </ul>
 
-            <p>Top 5 Games</p>
+            <p class="lists">Top 5 Games</p>
             <ol>
                 <li>Bloodborne</li>
                 <li>Kerbal Space Program</li>
@@ -35,14 +38,14 @@
                 <li>Sly Cooper</li>
                 <li>Spyro the Dragon</li>
             </ol>
-        <h2>Links and Images</h2>
+        <h2 class="header">Links and Images</h2>
             <!-- Links are created using the <a> (anchor) tag. -->
             <!-- To create a proper link, the opening anchor tag must include an href or hyprlink reference. -->
             <!-- Links and images can be relative, or absolute. Line 42 is an absolute link. Line 43 is relative. Line 44 is a relative path for an image. -->
             <a href="https://google.com/">Google Search</a>
             <a href="page_two.html">Page Two</a>
-            <p>This is Charles de Luvio</p>
-            <img src="./images/charlsdeluvio.jpg" alt="Charles de Luvio, a dapper pug with black fur">
+            <p class="practice"><em>This</em> is Charles de Luvio</p>
+            <img src="./img/charlsdeluvio.jpg" alt="Charles de Luvio, a dapper pug with black fur">
 
             <!-- .jpg image formats are excellent for large color palettes, but don't allow transparent pixels -->
             <!-- .gif image formats are the go-to option for simple animations, but are limited in color -->
